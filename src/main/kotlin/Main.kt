@@ -1,23 +1,23 @@
 package ru.cifrium
 
 fun main () {
-    val itemSum1: Int = 3000_00
+    val itemSum1: Double = 3000_00.00
     val itemDiscount: Int = 100_00
     val itemMaxdiscount: Double = 0.05
     val itemExtradiscount: Double = 0.01
-    var FinalPrice: Double
+    var finalPrice: Double
 
     if (itemSum1 <= 1000_00) {
-        FinalPrice = itemSum1 ()
+        finalPrice = itemSum1.toDouble()
     }
-    if (itemSum1 >= 1000_00) but (itemSum1 <= 10_000_00) {
-        FinalPrice = itemSum1 - itemDiscount ()
+    if (itemSum1 >= 1000_00 && itemSum1 <= 10_000_00) {
+        finalPrice = (itemSum1 - itemDiscount).toDouble()
     }
     if (itemSum1 > 10_001_00) {
-        FinalPrice = itemSum1 - (itemSum1 * itemMaxdiscount) {
+        finalPrice = itemSum1 - (itemSum1 * itemMaxdiscount) {
         }
     }
 
-    println("Итого к оплате $FinalPrice")
+    println("Итого к оплате $finalPrice")
 
 }
