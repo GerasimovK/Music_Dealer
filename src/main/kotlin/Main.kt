@@ -5,17 +5,17 @@ fun main () {
     var itemCurrentSum: Int = 1000_00
 
     //  сумма предыдущих покупок
-    val itemSum1: Int = 3000_00
+    val itemSum1: Int = 100001_00
 
     // если пользователь покупает каждый месяц - ставим true, если нет - то false
-    var history: Boolean = true
+    var history: Boolean = false
 
     val itemDiscount: Int = 100_00
     val itemMaxDiscount: Double = 0.05
     val itemExtradiscount: Double = 0.01
     var finalPrice: Int = itemCurrentSum
 
-    if ( itemSum1 > 1 && itemSum1 <= 1000 && history == true){
+    if ( itemSum1 >= 0 && itemSum1 <= 1000_00 && history == true){
         finalPrice = (itemCurrentSum - (itemCurrentSum * itemExtradiscount)).toInt()
     }
     if (itemSum1 >= 1001_00 && itemSum1 <= 10_000_00 && history == true) {

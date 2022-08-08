@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82aa23f5-d673-4f81-8531-b245c8151a1b" name="Changes" comment="добавил папку idea в gitignore 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/cacheable/dirty-sources.txt" beforeDir="false" />
+    <list default="true" id="82aa23f5-d673-4f81-8531-b245c8151a1b" name="Changes" comment="Работающий код до рефакторинга">
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/localstate/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/localstate/build-history.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659980991317</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Работающий код до рефакторинга">
+      <created>1659991002568</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1659991002568</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,6 +135,7 @@
     <MESSAGE value="Сделано без учёта условия про доп 1% и хранения информации о &quot;меломанах&quot;" />
     <MESSAGE value="Сделано без учёта условия про доп 1% и хранения информации о &quot;меломанах&quot;. Исправлено пара ошибок, но всё равно не работает." />
     <MESSAGE value="добавил папку idea в gitignore 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавил папку idea в gitignore 2" />
+    <MESSAGE value="Работающий код до рефакторинга" />
+    <option name="LAST_COMMIT_MESSAGE" value="Работающий код до рефакторинга" />
   </component>
 </project>
